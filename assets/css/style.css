@@ -1,0 +1,70 @@
+body{
+    margin: 0 auto;
+    width: 1140px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+header{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    width: 1140px;
+}
+.caja1{
+width: 20%;
+    background-color: violet;
+}
+.caja2{
+    width: 60%;
+    background-color: violet;
+    padding: 0 0 10px 0;
+}
+.caja2 > nav {
+    width: 80%;
+}
+.caja3{
+width: 20%;
+    background-color: violet;
+}
+nav{
+    float: right;
+}
+.menu{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 5px;
+}
+.menu > li{
+    float: left;
+}
+.menu > li > a { /* esta me da error   */
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0 5px 0 5px;
+    font-weight: 500;
+}
+.menu > li > a:hover{ /* esta me da error tambien  */
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 0 5px 0 5px;
+    font-weight: 500;
+
+}
+
+.active > a{ /* no esta funcionando   */
+    font-weight: 500 !important;
+    text-decoration: red;
+}
+
+.col-4{
+    width: 33%;
+    float: left;
+    background-color: grey;
+}
+.row{
+    display: flex;
+    width: 100%;
+
+}
