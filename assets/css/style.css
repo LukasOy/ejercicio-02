@@ -80,7 +80,7 @@ nav{
 .col-4{
     width: 33%;
     float: left;
-    background-color: grey;
+    background-color: rgba(108,109,113,255);
     position: relative;
     line-height: 26px;
     color: white;
@@ -89,7 +89,7 @@ nav{
 
 }
 .tercercol-4{
-    background-color: darkgrey;
+    background-color: rgba(128,128,130,255);
 }
 
 .row{
@@ -98,7 +98,7 @@ nav{
     position: relative;
 }
 .footer{
-    background-color: grey;
+    background-color: rgba(108,109,113,255);
     width: 100%;
     /*
     text-align: center;
@@ -109,10 +109,10 @@ nav{
 
 }
 #idgris{
-    background-color: darkgrey;
+    background-color: rgba(128,128,130,255);
 }
 .container{
-    background-color: grey;
+    background-color: rgba(108,109,113,255);
     padding: 0px !important;
 }
 .iconsfooter{
@@ -141,6 +141,14 @@ nav{
     list-style-type: none;
     overflow: hidden;
     padding: 0px 0 0px 70px;
+}
+.linea {
+    border-left: 1px solid white;
+    width: 2px;
+    height: 150px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+    background-color: rgba(108,109,113,255);
 }
 /*
 aqui va apoyo emocional
