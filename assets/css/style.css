@@ -150,6 +150,17 @@ nav{
     margin: 20px auto 0 auto;
     background-color: rgba(108,109,113,255);
 }
+.linea2 {
+    border-left: 1px solid white;
+    float: left;
+    width: 1px;
+    height: 15px;
+    padding: 0;
+    margin: 5px 0 0 0;
+    background-color: rgba(108,109,113,255);
+}
+
+
 /*
 aqui va apoyo emocional
  */
